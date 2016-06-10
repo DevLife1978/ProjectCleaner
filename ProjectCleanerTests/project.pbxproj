@@ -1,0 +1,1336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		308149DD16084B4300D55B4B /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 308149DC16084B4300D55B4B /* GLKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		30D23A47166F456000C7B8E8 /* StatisticLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D23A46166F456000C7B8E8 /* StatisticLogger.m */; };
+		3301B8ED1D005C24007C06B7 /* GRSnapshotDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3301B8EC1D005C24007C06B7 /* GRSnapshotDetailCell.m */; };
+		331ED14A1CF70958006697C8 /* Brand.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 331ED1491CF70958006697C8 /* Brand.xcassets */; };
+		333072551CD1F46300906729 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 333072541CD1F46300906729 /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		333072621CD2215000906729 /* GRAddtoPlaylistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 333072611CD2215000906729 /* GRAddtoPlaylistViewController.m */; };
+		3336DF881CBC91700087A56F /* GRBottomRemoteControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3336DF871CBC91700087A56F /* GRBottomRemoteControlViewController.m */; };
+		334D4F631D0152300019873E /* GRNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 334D4F621D0152300019873E /* GRNavigationController.m */; };
+		336126141CED54E100E51CC7 /* GRTutorialContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 336126131CED54E100E51CC7 /* GRTutorialContentViewController.m */; };
+		336126171CED575000E51CC7 /* GRTutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 336126161CED575000E51CC7 /* GRTutorialViewController.m */; };
+		336126221CED5FAC00E51CC7 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 336126211CED5FAC00E51CC7 /* CoreMotion.framework */; };
+		336713A91CBBBE1700F305E4 /* UILabel+AttributeString.m in Sources */ = {isa = PBXBuildFile; fileRef = 336713A81CBBBE1700F305E4 /* UILabel+AttributeString.m */; };
+		33760CA01CA4D63D009508D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33760C7A1CA4D63D009508D5 /* LaunchScreen.storyboard */; };
+		33760CA21CA4D63D009508D5 /* GRBaseSectionData.m in Sources */ = {isa = PBXBuildFile; fileRef = 33760C811CA4D63D009508D5 /* GRBaseSectionData.m */; };
+		33760CA31CA4D63D009508D5 /* GRDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 33760C831CA4D63D009508D5 /* GRDataSource.m */; };
+		33760CA41CA4D63D009508D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33760C861CA4D63D009508D5 /* AppDelegate.m */; };
+		33760CA51CA4D63D009508D5 /* GRConnectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33760C881CA4D63D009508D5 /* GRConnectionViewController.m */; };
+		33760CA61CA4D63D009508D5 /* GRInputPinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33760C8A1CA4D63D009508D5 /* GRInputPinViewController.m */; };
+		33760CA71CA4D63D009508D5 /* GRRemoteControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33760C8C1CA4D63D009508D5 /* GRRemoteControlViewController.m */; };
+		33760CA81CA4D63D009508D5 /* GRMainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33760C8F1CA4D63D009508D5 /* GRMainPageViewController.m */; };
+		33760CA91CA4D63D009508D5 /* GRMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33760C911CA4D63D009508D5 /* GRMainViewController.m */; };
+		33760CAA1CA4D63D009508D5 /* GROpenFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33760C931CA4D63D009508D5 /* GROpenFileViewController.m */; };
+		33760CAB1CA4D63D009508D5 /* GRPlaylistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33760C951CA4D63D009508D5 /* GRPlaylistViewController.m */; };
+		33760CAC1CA4D63D009508D5 /* GRSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33760C971CA4D63D009508D5 /* GRSettingViewController.m */; };
+		33760CAD1CA4D63D009508D5 /* GRSnapshotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33760C991CA4D63D009508D5 /* GRSnapshotViewController.m */; };
+		33760CAF1CA4D63D009508D5 /* GRTabViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 33760C9D1CA4D63D009508D5 /* GRTabViewCell.m */; };
+		33760CB01CA4D63D009508D5 /* GRTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33760C9F1CA4D63D009508D5 /* GRTabViewController.m */; };
+		33790CEB1CAA2680007D9E99 /* RemoteFileEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 33790CEA1CAA2680007D9E99 /* RemoteFileEntry.m */; };
+		33790CF31CAA2C34007D9E99 /* SyncEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 33790CF21CAA2C34007D9E99 /* SyncEntry.m */; };
+		33790CF61CAA2CB4007D9E99 /* TextInputAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33790CF51CAA2CB4007D9E99 /* TextInputAlertView.m */; };
+		337E4C421CC07E9000718EA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 337E4C401CC07E9000718EA6 /* Main.storyboard */; };
+		337E57F91CC0850700718EA6 /* GRRadialGadientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 337E57F81CC0850700718EA6 /* GRRadialGadientView.m */; };
+		337E57FC1CC086E800718EA6 /* CCARadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 337E57FB1CC086E800718EA6 /* CCARadialGradientLayer.m */; };
+		3386528A1CDB2E4400E73FE4 /* GRConnectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 338652891CDB2E4400E73FE4 /* GRConnectionCell.m */; };
+		3386529D1CDB3CBA00E73FE4 /* GRSnapshotDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3386529C1CDB3CBA00E73FE4 /* GRSnapshotDetailViewController.m */; };
+		33AC54A81CF709FF008824B8 /* ImageAsset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33AC54A71CF709FF008824B8 /* ImageAsset.xcassets */; };
+		33C266CA1CA910B100735FAB /* GRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C266C91CA910B100735FAB /* GRViewController.m */; };
+		33C266D91CA9287900735FAB /* GROpenFileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C266D81CA9287900735FAB /* GROpenFileCell.m */; };
+		33C266DC1CA951CE00735FAB /* GRLyricViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C266DB1CA951CE00735FAB /* GRLyricViewController.m */; };
+		33C266DF1CA9527600735FAB /* GRAudioRemoteControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C266DE1CA9527600735FAB /* GRAudioRemoteControlViewController.m */; };
+		33C35CFF1CABD56800A2AAEE /* GRSnapshotCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C35CFE1CABD56800A2AAEE /* GRSnapshotCell.m */; };
+		33C5A0711CCF8C760050E867 /* GRRelayDataTaskController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C5A0701CCF8C760050E867 /* GRRelayDataTaskController.m */; };
+		33CE133F1CF3D95F00A231F4 /* GRLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CE133E1CF3D95F00A231F4 /* GRLabel.m */; };
+		33CE134C1CF3FABC00A231F4 /* GRRemoteControlViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CE134B1CF3FABC00A231F4 /* GRRemoteControlViewCell.m */; };
+		33CE13971CF5978C00A231F4 /* GRButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CE13961CF5978C00A231F4 /* GRButton.m */; };
+		33CE139A1CF59AFD00A231F4 /* GRImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CE13991CF59AFD00A231F4 /* GRImage.m */; };
+		33CE13A01CF5A4AC00A231F4 /* GRUpdateTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CE139F1CF5A4AC00A231F4 /* GRUpdateTask.m */; };
+		33D3A54C1CCB524F005BD75C /* GRSubtitleSettingAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D3A54B1CCB524F005BD75C /* GRSubtitleSettingAlertViewController.m */; };
+		33D3A54F1CCB5CD2005BD75C /* SubtitleSettingInfomation.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D3A54E1CCB5CD2005BD75C /* SubtitleSettingInfomation.m */; };
+		33D3A5521CCB852F005BD75C /* GRPlayrateSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D3A5511CCB852F005BD75C /* GRPlayrateSettingViewController.m */; };
+		33D3A5551CCB854A005BD75C /* PlayrateSettingInfomation.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D3A5541CCB854A005BD75C /* PlayrateSettingInfomation.m */; };
+		33DCF54D1CDF0DAE00D56B87 /* GRDeleteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 33DCF54C1CDF0DAE00D56B87 /* GRDeleteCell.m */; };
+		33E0FF0B1CF318650020422D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33E0FF0D1CF318650020422D /* Localizable.strings */; };
+		33E331731D0844D3002B44C1 /* GRSectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E331711D0844D3002B44C1 /* GRSectionCell.m */; };
+		33E331741D0844D3002B44C1 /* GRSectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33E331721D0844D3002B44C1 /* GRSectionCell.xib */; };
+		33E331771D08FDB4002B44C1 /* GRSearchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E331761D08FDB4002B44C1 /* GRSearchCell.m */; };
+		33E7861C1CCCA43F00E9E60B /* GRAudioPlayrateSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E7861B1CCCA43F00E9E60B /* GRAudioPlayrateSettingViewController.m */; };
+		33E811311CD74A5800E908FC /* GUI2ActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E8112C1CD74A5800E908FC /* GUI2ActivityIndicatorView.m */; };
+		33E811321CD74A5800E908FC /* GUI2ActivityIndicatorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33E8112D1CD74A5800E908FC /* GUI2ActivityIndicatorView.xib */; };
+		33E811341CD74A5800E908FC /* GUI2NetworkActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E811301CD74A5800E908FC /* GUI2NetworkActivityIndicator.m */; };
+		33E874A31CD35AA300D4C5A2 /* GRSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E874A21CD35AA300D4C5A2 /* GRSearchViewController.m */; };
+		33EC36D81CCDAACE008EFB4E /* GRAudioPlaylistCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EC36D71CCDAACE008EFB4E /* GRAudioPlaylistCell.m */; };
+		33EC36E51CCDC359008EFB4E /* GRAudioPlaylistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EC36E41CCDC359008EFB4E /* GRAudioPlaylistViewController.m */; };
+		33EC36E81CCDC37A008EFB4E /* GRAudioPlaylistPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33EC36E71CCDC37A008EFB4E /* GRAudioPlaylistPageViewController.m */; };
+		33ED68981CEBF1FA006B4F49 /* ExtendedNavBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33ED68971CEBF1FA006B4F49 /* ExtendedNavBarView.m */; };
+		33ED68AD1CEC638C006B4F49 /* GRAddtoPlaylistCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 33ED68AC1CEC638C006B4F49 /* GRAddtoPlaylistCell.m */; };
+		33F8DE9F1CC4A62900D2A5F0 /* GRPlaylistCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F8DE9E1CC4A62900D2A5F0 /* GRPlaylistCell.m */; };
+		33F8DEB41CC4B80000D2A5F0 /* UIImage+SizeToFit.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F8DEB31CC4B80000D2A5F0 /* UIImage+SizeToFit.m */; };
+		38071B4411D335BE00C87F5B /* SyncLyricDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 38071B4311D335BE00C87F5B /* SyncLyricDownloader.m */; };
+		38377E1411CB8FC7002553F4 /* ResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 38377E1311CB8FC7002553F4 /* ResourceLoader.m */; };
+		38377F2B11CCCE44002553F4 /* RemoteCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 38377F2111CCCE44002553F4 /* RemoteCommunicator.m */; };
+		38377F4211CCD08B002553F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38377F4111CCD08B002553F4 /* main.m */; };
+		38377F4511CCD0EA002553F4 /* ImageLoadingOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 38377F4411CCD0EA002553F4 /* ImageLoadingOperation.m */; };
+		384B55FC123E35F200B03F1F /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 384B55FB123E35F200B03F1F /* Entitlements.plist */; };
+		385ABAB812014365007682A8 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 385ABAB712014365007682A8 /* MessageUI.framework */; };
+		38859E36127FEF9300BE5EEC /* GomRemoteGlobalState.m in Sources */ = {isa = PBXBuildFile; fileRef = 38859E35127FEF9300BE5EEC /* GomRemoteGlobalState.m */; };
+		3887BF4B11ABA6CA0080B516 /* RemoteCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 3887BF4811ABA6CA0080B516 /* RemoteCommand.m */; };
+		3887BF9711ABB9CF0080B516 /* RemoteSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 3887BF9611ABB9CF0080B516 /* RemoteSettings.m */; };
+		75264C4E11C23B87001D99C2 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 75264C4411C23B86001D99C2 /* MBProgressHUD.m */; };
+		75264C6D11C23BF8001D99C2 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 75264C6C11C23BF8001D99C2 /* libxml2.dylib */; };
+		75264CC311C23EC8001D99C2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75264CC211C23EC8001D99C2 /* QuartzCore.framework */; };
+		7533806411C5C69B003A1910 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 7533806311C5C69B003A1910 /* Reachability.m */; };
+		753380BF11C5C777003A1910 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 753380BE11C5C777003A1910 /* SystemConfiguration.framework */; };
+		753380C311C5C78E003A1910 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 753380C211C5C78E003A1910 /* CFNetwork.framework */; };
+		753380CA11C5C7A3003A1910 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 753380C911C5C7A3003A1910 /* MobileCoreServices.framework */; };
+		753380CF11C5C7C5003A1910 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 753380CE11C5C7C5003A1910 /* libz.dylib */; };
+		A9744B2D1D0A780B001A9F08 /* UIColor+NFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A9744B2C1D0A780B001A9F08 /* UIColor+NFAdditions.m */; };
+		A9744B301D0A782A001A9F08 /* CGColor+NFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A9744B2F1D0A782A001A9F08 /* CGColor+NFAdditions.m */; };
+		A9744B4B1D0A78A7001A9F08 /* CXMLDocument_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A9744B331D0A78A7001A9F08 /* CXMLDocument_CreationExtensions.m */; };
+		A9744B4C1D0A78A7001A9F08 /* CXMLNode_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A9744B351D0A78A7001A9F08 /* CXMLNode_CreationExtensions.m */; };
+		A9744B4D1D0A78A7001A9F08 /* CXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = A9744B381D0A78A7001A9F08 /* CXMLDocument.m */; };
+		A9744B4E1D0A78A7001A9F08 /* CXMLDocument_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A9744B3A1D0A78A7001A9F08 /* CXMLDocument_PrivateExtensions.m */; };
+		A9744B4F1D0A78A7001A9F08 /* CXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = A9744B3C1D0A78A7001A9F08 /* CXMLElement.m */; };
+		A9744B501D0A78A7001A9F08 /* CXMLElement_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A9744B3E1D0A78A7001A9F08 /* CXMLElement_CreationExtensions.m */; };
+		A9744B511D0A78A7001A9F08 /* CXMLElement_ElementTreeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A9744B401D0A78A7001A9F08 /* CXMLElement_ElementTreeExtensions.m */; };
+		A9744B521D0A78A7001A9F08 /* CXMLNamespaceNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A9744B421D0A78A7001A9F08 /* CXMLNamespaceNode.m */; };
+		A9744B531D0A78A7001A9F08 /* CXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A9744B441D0A78A7001A9F08 /* CXMLNode.m */; };
+		A9744B541D0A78A7001A9F08 /* CXMLNode_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A9744B461D0A78A7001A9F08 /* CXMLNode_PrivateExtensions.m */; };
+		A9744B551D0A78A7001A9F08 /* CXMLNode_XPathExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A9744B481D0A78A7001A9F08 /* CXMLNode_XPathExtensions.m */; };
+		A9744B6B1D0A7B93001A9F08 /* Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9744B641D0A7B93001A9F08 /* Debug.swift */; };
+		A9744B6C1D0A7B93001A9F08 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = A9744B661D0A7B93001A9F08 /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		A9744B6D1D0A7B93001A9F08 /* Remote.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9744B681D0A7B93001A9F08 /* Remote.swift */; };
+		A9744B6E1D0A7B93001A9F08 /* Servers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9744B691D0A7B93001A9F08 /* Servers.swift */; };
+		A9744B711D0A7C03001A9F08 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9744B6F1D0A7C03001A9F08 /* Realm.framework */; };
+		A9744B721D0A7C03001A9F08 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A9744B6F1D0A7C03001A9F08 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A9744B731D0A7C03001A9F08 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9744B701D0A7C03001A9F08 /* RealmSwift.framework */; };
+		A9744B741D0A7C03001A9F08 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A9744B701D0A7C03001A9F08 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A9BB958A1D016DCC00BFE794 /* GRHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9BB95891D016DCC00BFE794 /* GRHeaderCell.xib */; };
+		A9C0A5E91CFF0E1D00EEF100 /* GRHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C0A5E81CFF0E1C00EEF100 /* GRHeaderCell.m */; };
+		BD1431FA14F34324001D6B1F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1431F914F34324001D6B1F /* Security.framework */; };
+		BD1431FE14F36B4E001D6B1F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1431FD14F36B4E001D6B1F /* CoreData.framework */; };
+		BD8EF5AE150EE04C002EF0D7 /* SoundEffectPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8EF5AD150EE04C002EF0D7 /* SoundEffectPlayer.m */; };
+		BD8EF5B0150EE755002EF0D7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD8EF5AF150EE755002EF0D7 /* AVFoundation.framework */; };
+		FE5802FE156349BE00E6E028 /* NetworkUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5802F9156349BE00E6E028 /* NetworkUtility.m */; };
+		FE5802FF156349BE00E6E028 /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5802FB156349BE00E6E028 /* SimplePing.m */; };
+		FE580300156349BE00E6E028 /* TrayServerScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5802FD156349BE00E6E028 /* TrayServerScanner.m */; };
+		FE5803191563539D00E6E028 /* NetServiceSearcher2.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5803151563539D00E6E028 /* NetServiceSearcher2.m */; };
+		FE58031A1563539D00E6E028 /* NSStream+Host.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5803181563539D00E6E028 /* NSStream+Host.m */; };
+		FE58031D1563543700E6E028 /* RemoteServer.m in Sources */ = {isa = PBXBuildFile; fileRef = FE58031C1563543700E6E028 /* RemoteServer.m */; };
+		FE580320156354C200E6E028 /* MagicPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = FE58031F156354C200E6E028 /* MagicPacket.m */; };
+		FE863E501565E08E00DEEB48 /* PairingController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE863E4F1565E08E00DEEB48 /* PairingController.m */; };
+		FE8A6410156391F5002483C1 /* BetaSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8A6409156391F5002483C1 /* BetaSocket.m */; };
+		FE8A6411156391F5002483C1 /* NetFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8A640B156391F5002483C1 /* NetFinder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A9744B751D0A7C03001A9F08 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A9744B741D0A7C03001A9F08 /* RealmSwift.framework in Embed Frameworks */,
+				A9744B721D0A7C03001A9F08 /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* GomRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GomRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* iGomRemote_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iGomRemote_Prefix.pch; sourceTree = "<group>"; };
+		308149DC16084B4300D55B4B /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		30D23A45166F456000C7B8E8 /* StatisticLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StatisticLogger.h; path = Classes/StatisticLogger.h; sourceTree = "<group>"; };
+		30D23A46166F456000C7B8E8 /* StatisticLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StatisticLogger.m; path = Classes/StatisticLogger.m; sourceTree = "<group>"; };
+		3301B8EB1D005C24007C06B7 /* GRSnapshotDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRSnapshotDetailCell.h; sourceTree = "<group>"; };
+		3301B8EC1D005C24007C06B7 /* GRSnapshotDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRSnapshotDetailCell.m; sourceTree = "<group>"; };
+		331ED1491CF70958006697C8 /* Brand.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Brand.xcassets; sourceTree = "<group>"; };
+		333072531CD1F46300906729 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		333072541CD1F46300906729 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		333072601CD2215000906729 /* GRAddtoPlaylistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRAddtoPlaylistViewController.h; sourceTree = "<group>"; };
+		333072611CD2215000906729 /* GRAddtoPlaylistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRAddtoPlaylistViewController.m; sourceTree = "<group>"; };
+		3336DF861CBC91700087A56F /* GRBottomRemoteControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRBottomRemoteControlViewController.h; sourceTree = "<group>"; };
+		3336DF871CBC91700087A56F /* GRBottomRemoteControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRBottomRemoteControlViewController.m; sourceTree = "<group>"; };
+		334D4F611D0152300019873E /* GRNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GRNavigationController.h; path = ../Common/GRNavigationController.h; sourceTree = "<group>"; };
+		334D4F621D0152300019873E /* GRNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GRNavigationController.m; path = ../Common/GRNavigationController.m; sourceTree = "<group>"; };
+		336126121CED54E100E51CC7 /* GRTutorialContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRTutorialContentViewController.h; sourceTree = "<group>"; };
+		336126131CED54E100E51CC7 /* GRTutorialContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRTutorialContentViewController.m; sourceTree = "<group>"; };
+		336126151CED575000E51CC7 /* GRTutorialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRTutorialViewController.h; sourceTree = "<group>"; };
+		336126161CED575000E51CC7 /* GRTutorialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRTutorialViewController.m; sourceTree = "<group>"; };
+		336126211CED5FAC00E51CC7 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		336713A71CBBBE1700F305E4 /* UILabel+AttributeString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+AttributeString.h"; sourceTree = SOURCE_ROOT; };
+		336713A81CBBBE1700F305E4 /* UILabel+AttributeString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+AttributeString.m"; sourceTree = SOURCE_ROOT; };
+		33760C7B1CA4D63D009508D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33760C801CA4D63D009508D5 /* GRBaseSectionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GRBaseSectionData.h; path = ../Common/Data/GRBaseSectionData.h; sourceTree = "<group>"; };
+		33760C811CA4D63D009508D5 /* GRBaseSectionData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GRBaseSectionData.m; path = ../Common/Data/GRBaseSectionData.m; sourceTree = "<group>"; };
+		33760C821CA4D63D009508D5 /* GRDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GRDataSource.h; path = ../Common/Data/GRDataSource.h; sourceTree = "<group>"; };
+		33760C831CA4D63D009508D5 /* GRDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GRDataSource.m; path = ../Common/Data/GRDataSource.m; sourceTree = "<group>"; };
+		33760C851CA4D63D009508D5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../MobileGomRemote_iOS/Main/AppDelegate.h; sourceTree = "<group>"; };
+		33760C861CA4D63D009508D5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../MobileGomRemote_iOS/Main/AppDelegate.m; sourceTree = "<group>"; };
+		33760C871CA4D63D009508D5 /* GRConnectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRConnectionViewController.h; sourceTree = "<group>"; };
+		33760C881CA4D63D009508D5 /* GRConnectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRConnectionViewController.m; sourceTree = "<group>"; };
+		33760C891CA4D63D009508D5 /* GRInputPinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRInputPinViewController.h; sourceTree = "<group>"; };
+		33760C8A1CA4D63D009508D5 /* GRInputPinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRInputPinViewController.m; sourceTree = "<group>"; };
+		33760C8B1CA4D63D009508D5 /* GRRemoteControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GRRemoteControlViewController.h; path = ../Main/GRRemoteControlViewController.h; sourceTree = "<group>"; };
+		33760C8C1CA4D63D009508D5 /* GRRemoteControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GRRemoteControlViewController.m; path = ../Main/GRRemoteControlViewController.m; sourceTree = "<group>"; };
+		33760C8E1CA4D63D009508D5 /* GRMainPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRMainPageViewController.h; sourceTree = "<group>"; };
+		33760C8F1CA4D63D009508D5 /* GRMainPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRMainPageViewController.m; sourceTree = "<group>"; };
+		33760C901CA4D63D009508D5 /* GRMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRMainViewController.h; sourceTree = "<group>"; };
+		33760C911CA4D63D009508D5 /* GRMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRMainViewController.m; sourceTree = "<group>"; };
+		33760C921CA4D63D009508D5 /* GROpenFileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GROpenFileViewController.h; sourceTree = "<group>"; };
+		33760C931CA4D63D009508D5 /* GROpenFileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GROpenFileViewController.m; sourceTree = "<group>"; };
+		33760C941CA4D63D009508D5 /* GRPlaylistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRPlaylistViewController.h; sourceTree = "<group>"; };
+		33760C951CA4D63D009508D5 /* GRPlaylistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRPlaylistViewController.m; sourceTree = "<group>"; };
+		33760C961CA4D63D009508D5 /* GRSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GRSettingViewController.h; path = ../Tab/GRSettingViewController.h; sourceTree = "<group>"; };
+		33760C971CA4D63D009508D5 /* GRSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GRSettingViewController.m; path = ../Tab/GRSettingViewController.m; sourceTree = "<group>"; };
+		33760C981CA4D63D009508D5 /* GRSnapshotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRSnapshotViewController.h; sourceTree = "<group>"; };
+		33760C991CA4D63D009508D5 /* GRSnapshotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRSnapshotViewController.m; sourceTree = "<group>"; };
+		33760C9C1CA4D63D009508D5 /* GRTabViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRTabViewCell.h; sourceTree = "<group>"; };
+		33760C9D1CA4D63D009508D5 /* GRTabViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRTabViewCell.m; sourceTree = "<group>"; };
+		33760C9E1CA4D63D009508D5 /* GRTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRTabViewController.h; sourceTree = "<group>"; };
+		33760C9F1CA4D63D009508D5 /* GRTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRTabViewController.m; sourceTree = "<group>"; };
+		33790CE91CAA2680007D9E99 /* RemoteFileEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RemoteFileEntry.h; path = ../../Classes/RemoteFileEntry.h; sourceTree = "<group>"; };
+		33790CEA1CAA2680007D9E99 /* RemoteFileEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RemoteFileEntry.m; path = ../../Classes/RemoteFileEntry.m; sourceTree = "<group>"; };
+		33790CEC1CAA2B00007D9E99 /* GeneralDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeneralDelegate.h; path = ../../Classes/GeneralDelegate.h; sourceTree = "<group>"; };
+		33790CED1CAA2BD7007D9E99 /* RemoteEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RemoteEvent.h; path = ../../Classes/RemoteEvent.h; sourceTree = "<group>"; };
+		33790CF11CAA2C34007D9E99 /* SyncEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SyncEntry.h; path = ../../Classes/SyncEntry.h; sourceTree = "<group>"; };
+		33790CF21CAA2C34007D9E99 /* SyncEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SyncEntry.m; path = ../../Classes/SyncEntry.m; sourceTree = "<group>"; };
+		33790CF41CAA2CB4007D9E99 /* TextInputAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextInputAlertView.h; path = ../../Classes/TextInputAlertView.h; sourceTree = "<group>"; };
+		33790CF51CAA2CB4007D9E99 /* TextInputAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TextInputAlertView.m; path = ../../Classes/TextInputAlertView.m; sourceTree = "<group>"; };
+		337E4C411CC07E9000718EA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		337E57F71CC0850700718EA6 /* GRRadialGadientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GRRadialGadientView.h; path = Classes/GRRadialGadientView.h; sourceTree = SOURCE_ROOT; };
+		337E57F81CC0850700718EA6 /* GRRadialGadientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GRRadialGadientView.m; path = Classes/GRRadialGadientView.m; sourceTree = SOURCE_ROOT; };
+		337E57FA1CC086E800718EA6 /* CCARadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CCARadialGradientLayer.h; path = Classes/CCARadialGradientLayer.h; sourceTree = SOURCE_ROOT; };
+		337E57FB1CC086E800718EA6 /* CCARadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CCARadialGradientLayer.m; path = Classes/CCARadialGradientLayer.m; sourceTree = SOURCE_ROOT; };
+		338652881CDB2E4400E73FE4 /* GRConnectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRConnectionCell.h; sourceTree = "<group>"; };
+		338652891CDB2E4400E73FE4 /* GRConnectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRConnectionCell.m; sourceTree = "<group>"; };
+		3386529B1CDB3CBA00E73FE4 /* GRSnapshotDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRSnapshotDetailViewController.h; sourceTree = "<group>"; };
+		3386529C1CDB3CBA00E73FE4 /* GRSnapshotDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRSnapshotDetailViewController.m; sourceTree = "<group>"; };
+		33AC54A71CF709FF008824B8 /* ImageAsset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ImageAsset.xcassets; sourceTree = "<group>"; };
+		33C266C81CA910B100735FAB /* GRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRViewController.h; sourceTree = "<group>"; };
+		33C266C91CA910B100735FAB /* GRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRViewController.m; sourceTree = "<group>"; };
+		33C266D71CA9287900735FAB /* GROpenFileCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GROpenFileCell.h; sourceTree = "<group>"; };
+		33C266D81CA9287900735FAB /* GROpenFileCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GROpenFileCell.m; sourceTree = "<group>"; };
+		33C266DA1CA951CE00735FAB /* GRLyricViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRLyricViewController.h; sourceTree = "<group>"; };
+		33C266DB1CA951CE00735FAB /* GRLyricViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRLyricViewController.m; sourceTree = "<group>"; };
+		33C266DD1CA9527600735FAB /* GRAudioRemoteControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRAudioRemoteControlViewController.h; sourceTree = "<group>"; };
+		33C266DE1CA9527600735FAB /* GRAudioRemoteControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRAudioRemoteControlViewController.m; sourceTree = "<group>"; };
+		33C35CFD1CABD56800A2AAEE /* GRSnapshotCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRSnapshotCell.h; sourceTree = "<group>"; };
+		33C35CFE1CABD56800A2AAEE /* GRSnapshotCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRSnapshotCell.m; sourceTree = "<group>"; };
+		33C35D071CAD226300A2AAEE /* iGomRemoteDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iGomRemoteDefs.h; path = ../../Classes/iGomRemoteDefs.h; sourceTree = "<group>"; };
+		33C5A06F1CCF8C760050E867 /* GRRelayDataTaskController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRRelayDataTaskController.h; sourceTree = "<group>"; };
+		33C5A0701CCF8C760050E867 /* GRRelayDataTaskController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRRelayDataTaskController.m; sourceTree = "<group>"; };
+		33CE133D1CF3D95F00A231F4 /* GRLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GRLabel.h; path = ../Common/GRLabel.h; sourceTree = "<group>"; };
+		33CE133E1CF3D95F00A231F4 /* GRLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GRLabel.m; path = ../Common/GRLabel.m; sourceTree = "<group>"; };
+		33CE134A1CF3FABC00A231F4 /* GRRemoteControlViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRRemoteControlViewCell.h; sourceTree = "<group>"; };
+		33CE134B1CF3FABC00A231F4 /* GRRemoteControlViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRRemoteControlViewCell.m; sourceTree = "<group>"; };
+		33CE13951CF5978C00A231F4 /* GRButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GRButton.h; path = ../Common/GRButton.h; sourceTree = "<group>"; };
+		33CE13961CF5978C00A231F4 /* GRButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GRButton.m; path = ../Common/GRButton.m; sourceTree = "<group>"; };
+		33CE13981CF59AFD00A231F4 /* GRImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GRImage.h; path = ../Common/GRImage.h; sourceTree = "<group>"; };
+		33CE13991CF59AFD00A231F4 /* GRImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GRImage.m; path = ../Common/GRImage.m; sourceTree = "<group>"; };
+		33CE139E1CF5A4AC00A231F4 /* GRUpdateTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRUpdateTask.h; sourceTree = "<group>"; };
+		33CE139F1CF5A4AC00A231F4 /* GRUpdateTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRUpdateTask.m; sourceTree = "<group>"; };
+		33D3A54A1CCB524F005BD75C /* GRSubtitleSettingAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRSubtitleSettingAlertViewController.h; sourceTree = "<group>"; };
+		33D3A54B1CCB524F005BD75C /* GRSubtitleSettingAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRSubtitleSettingAlertViewController.m; sourceTree = "<group>"; };
+		33D3A54D1CCB5CD2005BD75C /* SubtitleSettingInfomation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubtitleSettingInfomation.h; sourceTree = "<group>"; };
+		33D3A54E1CCB5CD2005BD75C /* SubtitleSettingInfomation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubtitleSettingInfomation.m; sourceTree = "<group>"; };
+		33D3A5501CCB852F005BD75C /* GRPlayrateSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRPlayrateSettingViewController.h; sourceTree = "<group>"; };
+		33D3A5511CCB852F005BD75C /* GRPlayrateSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRPlayrateSettingViewController.m; sourceTree = "<group>"; };
+		33D3A5531CCB854A005BD75C /* PlayrateSettingInfomation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayrateSettingInfomation.h; sourceTree = "<group>"; };
+		33D3A5541CCB854A005BD75C /* PlayrateSettingInfomation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayrateSettingInfomation.m; sourceTree = "<group>"; };
+		33DCF54B1CDF0DAE00D56B87 /* GRDeleteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRDeleteCell.h; sourceTree = "<group>"; };
+		33DCF54C1CDF0DAE00D56B87 /* GRDeleteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRDeleteCell.m; sourceTree = "<group>"; };
+		33E0FF0C1CF318650020422D /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		33E0FF0E1CF3186F0020422D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		33E0FF0F1CF318790020422D /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		33E0FF101CF318800020422D /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		33E331701D0844D3002B44C1 /* GRSectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRSectionCell.h; sourceTree = "<group>"; };
+		33E331711D0844D3002B44C1 /* GRSectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRSectionCell.m; sourceTree = "<group>"; };
+		33E331721D0844D3002B44C1 /* GRSectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GRSectionCell.xib; sourceTree = "<group>"; };
+		33E331751D08FDB4002B44C1 /* GRSearchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRSearchCell.h; sourceTree = "<group>"; };
+		33E331761D08FDB4002B44C1 /* GRSearchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRSearchCell.m; sourceTree = "<group>"; };
+		33E7861A1CCCA43F00E9E60B /* GRAudioPlayrateSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRAudioPlayrateSettingViewController.h; sourceTree = "<group>"; };
+		33E7861B1CCCA43F00E9E60B /* GRAudioPlayrateSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRAudioPlayrateSettingViewController.m; sourceTree = "<group>"; };
+		33E8112B1CD74A5800E908FC /* GUI2ActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUI2ActivityIndicatorView.h; sourceTree = "<group>"; };
+		33E8112C1CD74A5800E908FC /* GUI2ActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GUI2ActivityIndicatorView.m; sourceTree = "<group>"; };
+		33E8112D1CD74A5800E908FC /* GUI2ActivityIndicatorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GUI2ActivityIndicatorView.xib; sourceTree = "<group>"; };
+		33E8112F1CD74A5800E908FC /* GUI2NetworkActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GUI2NetworkActivityIndicator.h; sourceTree = "<group>"; };
+		33E811301CD74A5800E908FC /* GUI2NetworkActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GUI2NetworkActivityIndicator.m; sourceTree = "<group>"; };
+		33E874A11CD35AA300D4C5A2 /* GRSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRSearchViewController.h; sourceTree = "<group>"; };
+		33E874A21CD35AA300D4C5A2 /* GRSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRSearchViewController.m; sourceTree = "<group>"; };
+		33EC36D61CCDAACE008EFB4E /* GRAudioPlaylistCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRAudioPlaylistCell.h; sourceTree = "<group>"; };
+		33EC36D71CCDAACE008EFB4E /* GRAudioPlaylistCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRAudioPlaylistCell.m; sourceTree = "<group>"; };
+		33EC36E31CCDC359008EFB4E /* GRAudioPlaylistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRAudioPlaylistViewController.h; sourceTree = "<group>"; };
+		33EC36E41CCDC359008EFB4E /* GRAudioPlaylistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRAudioPlaylistViewController.m; sourceTree = "<group>"; };
+		33EC36E61CCDC37A008EFB4E /* GRAudioPlaylistPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRAudioPlaylistPageViewController.h; sourceTree = "<group>"; };
+		33EC36E71CCDC37A008EFB4E /* GRAudioPlaylistPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRAudioPlaylistPageViewController.m; sourceTree = "<group>"; };
+		33ED68961CEBF1FA006B4F49 /* ExtendedNavBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExtendedNavBarView.h; path = ../Common/ExtendedNavBarView.h; sourceTree = "<group>"; };
+		33ED68971CEBF1FA006B4F49 /* ExtendedNavBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExtendedNavBarView.m; path = ../Common/ExtendedNavBarView.m; sourceTree = "<group>"; };
+		33ED68AB1CEC638C006B4F49 /* GRAddtoPlaylistCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRAddtoPlaylistCell.h; sourceTree = "<group>"; };
+		33ED68AC1CEC638C006B4F49 /* GRAddtoPlaylistCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRAddtoPlaylistCell.m; sourceTree = "<group>"; };
+		33F8DE9D1CC4A62900D2A5F0 /* GRPlaylistCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRPlaylistCell.h; sourceTree = "<group>"; };
+		33F8DE9E1CC4A62900D2A5F0 /* GRPlaylistCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRPlaylistCell.m; sourceTree = "<group>"; };
+		33F8DEB21CC4B80000D2A5F0 /* UIImage+SizeToFit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+SizeToFit.h"; path = "../Common/UIImage+SizeToFit.h"; sourceTree = "<group>"; };
+		33F8DEB31CC4B80000D2A5F0 /* UIImage+SizeToFit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+SizeToFit.m"; path = "../Common/UIImage+SizeToFit.m"; sourceTree = "<group>"; };
+		38071B0411D3294F00C87F5B /* DebugTrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DebugTrace.h; path = Classes/DebugTrace.h; sourceTree = "<group>"; };
+		38071B4211D335BE00C87F5B /* SyncLyricDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SyncLyricDownloader.h; path = ../../SyncLyricDownloader.h; sourceTree = "<group>"; };
+		38071B4311D335BE00C87F5B /* SyncLyricDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SyncLyricDownloader.m; path = ../../SyncLyricDownloader.m; sourceTree = "<group>"; };
+		38377E1211CB8FC7002553F4 /* ResourceLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResourceLoader.h; path = Classes/ResourceLoader.h; sourceTree = "<group>"; };
+		38377E1311CB8FC7002553F4 /* ResourceLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResourceLoader.m; path = Classes/ResourceLoader.m; sourceTree = "<group>"; };
+		38377E1511CB900B002553F4 /* ResourceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResourceInfo.h; path = Classes/ResourceInfo.h; sourceTree = "<group>"; };
+		38377F2011CCCE44002553F4 /* RemoteCommunicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RemoteCommunicator.h; path = ../RemoteView/RemoteCommunicator.h; sourceTree = "<group>"; };
+		38377F2111CCCE44002553F4 /* RemoteCommunicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RemoteCommunicator.m; path = ../RemoteView/RemoteCommunicator.m; sourceTree = "<group>"; };
+		38377F4111CCD08B002553F4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Classes/main.m; sourceTree = "<group>"; };
+		38377F4311CCD0EA002553F4 /* ImageLoadingOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageLoadingOperation.h; path = ../../Classes/ImageLoadingOperation.h; sourceTree = "<group>"; };
+		38377F4411CCD0EA002553F4 /* ImageLoadingOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageLoadingOperation.m; path = ../../Classes/ImageLoadingOperation.m; sourceTree = "<group>"; };
+		384B55FB123E35F200B03F1F /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		385ABAB712014365007682A8 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		38859E34127FEF9300BE5EEC /* GomRemoteGlobalState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GomRemoteGlobalState.h; sourceTree = "<group>"; };
+		38859E35127FEF9300BE5EEC /* GomRemoteGlobalState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GomRemoteGlobalState.m; sourceTree = "<group>"; };
+		3887BF4711ABA6CA0080B516 /* RemoteCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RemoteCommand.h; path = ../../Classes/RemoteClass/RemoteCommand.h; sourceTree = "<group>"; };
+		3887BF4811ABA6CA0080B516 /* RemoteCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RemoteCommand.m; path = ../../Classes/RemoteClass/RemoteCommand.m; sourceTree = "<group>"; };
+		3887BF4911ABA6CA0080B516 /* RemoteCommandDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RemoteCommandDefs.h; path = ../../Classes/RemoteClass/RemoteCommandDefs.h; sourceTree = "<group>"; };
+		3887BF9511ABB9CF0080B516 /* RemoteSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RemoteSettings.h; path = ../../Classes/RemoteClass/RemoteSettings.h; sourceTree = "<group>"; };
+		3887BF9611ABB9CF0080B516 /* RemoteSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RemoteSettings.m; path = ../../Classes/RemoteClass/RemoteSettings.m; sourceTree = "<group>"; };
+		75264C4311C23B86001D99C2 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		75264C4411C23B86001D99C2 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		75264C6C11C23BF8001D99C2 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		75264CC211C23EC8001D99C2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7533806211C5C69B003A1910 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		7533806311C5C69B003A1910 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		753380BE11C5C777003A1910 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		753380C211C5C78E003A1910 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		753380C911C5C7A3003A1910 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		753380CE11C5C7C5003A1910 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		75D1936811C65F500056E190 /* localize_strings.command */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = localize_strings.command; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* iGomRemote-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iGomRemote-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		A9744B2B1D0A780B001A9F08 /* UIColor+NFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+NFAdditions.h"; path = "Externals/NFKit/NFKit/iOS/UIColor+NFAdditions.h"; sourceTree = SOURCE_ROOT; };
+		A9744B2C1D0A780B001A9F08 /* UIColor+NFAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+NFAdditions.m"; path = "Externals/NFKit/NFKit/iOS/UIColor+NFAdditions.m"; sourceTree = SOURCE_ROOT; };
+		A9744B2E1D0A782A001A9F08 /* CGColor+NFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CGColor+NFAdditions.h"; path = "Externals/NFKit/NFKit/CGColor+NFAdditions.h"; sourceTree = SOURCE_ROOT; };
+		A9744B2F1D0A782A001A9F08 /* CGColor+NFAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CGColor+NFAdditions.m"; path = "Externals/NFKit/NFKit/CGColor+NFAdditions.m"; sourceTree = SOURCE_ROOT; };
+		A9744B321D0A78A7001A9F08 /* CXMLDocument_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_CreationExtensions.h; sourceTree = "<group>"; };
+		A9744B331D0A78A7001A9F08 /* CXMLDocument_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument_CreationExtensions.m; sourceTree = "<group>"; };
+		A9744B341D0A78A7001A9F08 /* CXMLNode_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_CreationExtensions.h; sourceTree = "<group>"; };
+		A9744B351D0A78A7001A9F08 /* CXMLNode_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_CreationExtensions.m; sourceTree = "<group>"; };
+		A9744B371D0A78A7001A9F08 /* CXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument.h; sourceTree = "<group>"; };
+		A9744B381D0A78A7001A9F08 /* CXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument.m; sourceTree = "<group>"; };
+		A9744B391D0A78A7001A9F08 /* CXMLDocument_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_PrivateExtensions.h; sourceTree = "<group>"; };
+		A9744B3A1D0A78A7001A9F08 /* CXMLDocument_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument_PrivateExtensions.m; sourceTree = "<group>"; };
+		A9744B3B1D0A78A7001A9F08 /* CXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLElement.h; sourceTree = "<group>"; };
+		A9744B3C1D0A78A7001A9F08 /* CXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLElement.m; sourceTree = "<group>"; };
+		A9744B3D1D0A78A7001A9F08 /* CXMLElement_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLElement_CreationExtensions.h; sourceTree = "<group>"; };
+		A9744B3E1D0A78A7001A9F08 /* CXMLElement_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLElement_CreationExtensions.m; sourceTree = "<group>"; };
+		A9744B3F1D0A78A7001A9F08 /* CXMLElement_ElementTreeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLElement_ElementTreeExtensions.h; sourceTree = "<group>"; };
+		A9744B401D0A78A7001A9F08 /* CXMLElement_ElementTreeExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLElement_ElementTreeExtensions.m; sourceTree = "<group>"; };
+		A9744B411D0A78A7001A9F08 /* CXMLNamespaceNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNamespaceNode.h; sourceTree = "<group>"; };
+		A9744B421D0A78A7001A9F08 /* CXMLNamespaceNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNamespaceNode.m; sourceTree = "<group>"; };
+		A9744B431D0A78A7001A9F08 /* CXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode.h; sourceTree = "<group>"; };
+		A9744B441D0A78A7001A9F08 /* CXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode.m; sourceTree = "<group>"; };
+		A9744B451D0A78A7001A9F08 /* CXMLNode_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_PrivateExtensions.h; sourceTree = "<group>"; };
+		A9744B461D0A78A7001A9F08 /* CXMLNode_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_PrivateExtensions.m; sourceTree = "<group>"; };
+		A9744B471D0A78A7001A9F08 /* CXMLNode_XPathExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_XPathExtensions.h; sourceTree = "<group>"; };
+		A9744B481D0A78A7001A9F08 /* CXMLNode_XPathExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_XPathExtensions.m; sourceTree = "<group>"; };
+		A9744B491D0A78A7001A9F08 /* TouchXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchXML.h; sourceTree = "<group>"; };
+		A9744B641D0A7B93001A9F08 /* Debug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debug.swift; sourceTree = "<group>"; };
+		A9744B651D0A7B93001A9F08 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		A9744B661D0A7B93001A9F08 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		A9744B681D0A7B93001A9F08 /* Remote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Remote.swift; sourceTree = "<group>"; };
+		A9744B691D0A7B93001A9F08 /* Servers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Servers.swift; sourceTree = "<group>"; };
+		A9744B6A1D0A7B93001A9F08 /* SwiftPlay.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftPlay.playground; sourceTree = "<group>"; };
+		A9744B6F1D0A7C03001A9F08 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = MobileGomRemote_iOS/News/Realm.framework; sourceTree = "<group>"; };
+		A9744B701D0A7C03001A9F08 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = MobileGomRemote_iOS/News/RealmSwift.framework; sourceTree = "<group>"; };
+		A9744B761D0A7CA6001A9F08 /* GomRemote-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GomRemote-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		A9BB95891D016DCC00BFE794 /* GRHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GRHeaderCell.xib; sourceTree = "<group>"; };
+		A9C0A5E71CFF0E1C00EEF100 /* GRHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRHeaderCell.h; sourceTree = "<group>"; };
+		A9C0A5E81CFF0E1C00EEF100 /* GRHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRHeaderCell.m; sourceTree = "<group>"; };
+		BD1431F914F34324001D6B1F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BD1431FD14F36B4E001D6B1F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BD8EF5AC150EE04C002EF0D7 /* SoundEffectPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoundEffectPlayer.h; path = Classes/SoundEffectPlayer.h; sourceTree = "<group>"; };
+		BD8EF5AD150EE04C002EF0D7 /* SoundEffectPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SoundEffectPlayer.m; path = Classes/SoundEffectPlayer.m; sourceTree = "<group>"; };
+		BD8EF5AF150EE755002EF0D7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FE5802F8156349BE00E6E028 /* NetworkUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkUtility.h; sourceTree = "<group>"; };
+		FE5802F9156349BE00E6E028 /* NetworkUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkUtility.m; sourceTree = "<group>"; };
+		FE5802FA156349BE00E6E028 /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
+		FE5802FB156349BE00E6E028 /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
+		FE5802FC156349BE00E6E028 /* TrayServerScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrayServerScanner.h; sourceTree = "<group>"; };
+		FE5802FD156349BE00E6E028 /* TrayServerScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrayServerScanner.m; sourceTree = "<group>"; };
+		FE5803141563539D00E6E028 /* NetServiceSearcher2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetServiceSearcher2.h; sourceTree = "<group>"; };
+		FE5803151563539D00E6E028 /* NetServiceSearcher2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetServiceSearcher2.m; sourceTree = "<group>"; };
+		FE5803161563539D00E6E028 /* NetServiceSearcherDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetServiceSearcherDelegate.h; sourceTree = "<group>"; };
+		FE5803171563539D00E6E028 /* NSStream+Host.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSStream+Host.h"; sourceTree = "<group>"; };
+		FE5803181563539D00E6E028 /* NSStream+Host.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSStream+Host.m"; sourceTree = "<group>"; };
+		FE58031B1563543700E6E028 /* RemoteServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteServer.h; sourceTree = "<group>"; };
+		FE58031C1563543700E6E028 /* RemoteServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteServer.m; sourceTree = "<group>"; };
+		FE58031E156354BD00E6E028 /* MagicPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicPacket.h; sourceTree = "<group>"; };
+		FE58031F156354C200E6E028 /* MagicPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicPacket.m; sourceTree = "<group>"; };
+		FE863E4E1565E08E00DEEB48 /* PairingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PairingController.h; sourceTree = "<group>"; };
+		FE863E4F1565E08E00DEEB48 /* PairingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PairingController.m; sourceTree = "<group>"; };
+		FE896BF81519A28400F53360 /* GomRemoteDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GomRemoteDefs.h; path = ../../Classes/GomRemoteDefs.h; sourceTree = "<group>"; };
+		FE8A6408156391F5002483C1 /* BetaSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BetaSocket.h; sourceTree = "<group>"; };
+		FE8A6409156391F5002483C1 /* BetaSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BetaSocket.m; sourceTree = "<group>"; };
+		FE8A640A156391F5002483C1 /* NetFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetFinder.h; sourceTree = "<group>"; };
+		FE8A640B156391F5002483C1 /* NetFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetFinder.m; sourceTree = "<group>"; };
+		FE8A640C156391F5002483C1 /* NetFinderDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetFinderDefs.h; sourceTree = "<group>"; };
+		FE8A640D156391F5002483C1 /* NetFinderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetFinderDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				336126221CED5FAC00E51CC7 /* CoreMotion.framework in Frameworks */,
+				753380BF11C5C777003A1910 /* SystemConfiguration.framework in Frameworks */,
+				A9744B731D0A7C03001A9F08 /* RealmSwift.framework in Frameworks */,
+				308149DD16084B4300D55B4B /* GLKit.framework in Frameworks */,
+				BD8EF5B0150EE755002EF0D7 /* AVFoundation.framework in Frameworks */,
+				BD1431FE14F36B4E001D6B1F /* CoreData.framework in Frameworks */,
+				BD1431FA14F34324001D6B1F /* Security.framework in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				75264C6D11C23BF8001D99C2 /* libxml2.dylib in Frameworks */,
+				75264CC311C23EC8001D99C2 /* QuartzCore.framework in Frameworks */,
+				753380C311C5C78E003A1910 /* CFNetwork.framework in Frameworks */,
+				A9744B711D0A7C03001A9F08 /* Realm.framework in Frameworks */,
+				753380CA11C5C7A3003A1910 /* MobileCoreServices.framework in Frameworks */,
+				753380CF11C5C7C5003A1910 /* libz.dylib in Frameworks */,
+				385ABAB812014365007682A8 /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				33760C851CA4D63D009508D5 /* AppDelegate.h */,
+				33760C861CA4D63D009508D5 /* AppDelegate.m */,
+				38859E34127FEF9300BE5EEC /* GomRemoteGlobalState.h */,
+				38859E35127FEF9300BE5EEC /* GomRemoteGlobalState.m */,
+			);
+			name = Main;
+			path = ../Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* GomRemote.app */,
+			);
+			name = Products;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				33760C731CA4D2BD009508D5 /* MobileGomRemote_iOS */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				384B55FB123E35F200B03F1F /* Entitlements.plist */,
+				38377F4111CCD08B002553F4 /* main.m */,
+				28A0AAE50D9B0CCF005BE974 /* iGomRemote_Prefix.pch */,
+				75D1936811C65F500056E190 /* localize_strings.command */,
+			);
+			name = Other;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				337E4C401CC07E9000718EA6 /* Main.storyboard */,
+				33760C7A1CA4D63D009508D5 /* LaunchScreen.storyboard */,
+				8D1107310486CEB800E47090 /* iGomRemote-Info.plist */,
+				33E0FF0D1CF318650020422D /* Localizable.strings */,
+				331ED1491CF70958006697C8 /* Brand.xcassets */,
+				33AC54A71CF709FF008824B8 /* ImageAsset.xcassets */,
+			);
+			name = Resources;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9744B6F1D0A7C03001A9F08 /* Realm.framework */,
+				A9744B701D0A7C03001A9F08 /* RealmSwift.framework */,
+				336126211CED5FAC00E51CC7 /* CoreMotion.framework */,
+				308149DC16084B4300D55B4B /* GLKit.framework */,
+				BD8EF5AF150EE755002EF0D7 /* AVFoundation.framework */,
+				BD1431FD14F36B4E001D6B1F /* CoreData.framework */,
+				BD1431F914F34324001D6B1F /* Security.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+				75264CC211C23EC8001D99C2 /* QuartzCore.framework */,
+				753380BE11C5C777003A1910 /* SystemConfiguration.framework */,
+				753380C211C5C78E003A1910 /* CFNetwork.framework */,
+				753380C911C5C7A3003A1910 /* MobileCoreServices.framework */,
+				75264C6C11C23BF8001D99C2 /* libxml2.dylib */,
+				753380CE11C5C7C5003A1910 /* libz.dylib */,
+				385ABAB712014365007682A8 /* MessageUI.framework */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		33760C731CA4D2BD009508D5 /* MobileGomRemote_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				75264B3611C238A7001D99C2 /* Externals */,
+				33760C7E1CA4D63D009508D5 /* Olds */,
+				A9744B5B1D0A7ACD001A9F08 /* News */,
+				33760C8D1CA4D63D009508D5 /* UI */,
+				080E96DDFE201D6D7F000001 /* Main */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97315FDCFA39411CA2CEA /* Other */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			path = MobileGomRemote_iOS;
+			sourceTree = "<group>";
+		};
+		33760C7E1CA4D63D009508D5 /* Olds */ = {
+			isa = PBXGroup;
+			children = (
+				FE5803011563526D00E6E028 /* NetFinder */,
+				FE5802F7156349BE00E6E028 /* Network */,
+				FEAA050815328D8A001C8105 /* Utility Class */,
+				33C35D071CAD226300A2AAEE /* iGomRemoteDefs.h */,
+				33790CF11CAA2C34007D9E99 /* SyncEntry.h */,
+				33790CF21CAA2C34007D9E99 /* SyncEntry.m */,
+				33790CED1CAA2BD7007D9E99 /* RemoteEvent.h */,
+				33790CEC1CAA2B00007D9E99 /* GeneralDelegate.h */,
+				38377F4311CCD0EA002553F4 /* ImageLoadingOperation.h */,
+				38377F4411CCD0EA002553F4 /* ImageLoadingOperation.m */,
+				3887BF9511ABB9CF0080B516 /* RemoteSettings.h */,
+				3887BF9611ABB9CF0080B516 /* RemoteSettings.m */,
+				3887BF4711ABA6CA0080B516 /* RemoteCommand.h */,
+				3887BF4811ABA6CA0080B516 /* RemoteCommand.m */,
+				33790CE91CAA2680007D9E99 /* RemoteFileEntry.h */,
+				3887BF4911ABA6CA0080B516 /* RemoteCommandDefs.h */,
+				FE896BF81519A28400F53360 /* GomRemoteDefs.h */,
+				33790CEA1CAA2680007D9E99 /* RemoteFileEntry.m */,
+			);
+			name = Olds;
+			path = Common;
+			sourceTree = "<group>";
+		};
+		33760C841CA4D63D009508D5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				33E331701D0844D3002B44C1 /* GRSectionCell.h */,
+				33E331711D0844D3002B44C1 /* GRSectionCell.m */,
+				33E331721D0844D3002B44C1 /* GRSectionCell.xib */,
+				33760C871CA4D63D009508D5 /* GRConnectionViewController.h */,
+				33760C881CA4D63D009508D5 /* GRConnectionViewController.m */,
+				338652881CDB2E4400E73FE4 /* GRConnectionCell.h */,
+				338652891CDB2E4400E73FE4 /* GRConnectionCell.m */,
+				A9C0A5E71CFF0E1C00EEF100 /* GRHeaderCell.h */,
+				A9C0A5E81CFF0E1C00EEF100 /* GRHeaderCell.m */,
+				A9BB95891D016DCC00BFE794 /* GRHeaderCell.xib */,
+				33760C891CA4D63D009508D5 /* GRInputPinViewController.h */,
+				33760C8A1CA4D63D009508D5 /* GRInputPinViewController.m */,
+				33C5A06F1CCF8C760050E867 /* GRRelayDataTaskController.h */,
+				33C5A0701CCF8C760050E867 /* GRRelayDataTaskController.m */,
+				33760C961CA4D63D009508D5 /* GRSettingViewController.h */,
+				33760C971CA4D63D009508D5 /* GRSettingViewController.m */,
+				336126121CED54E100E51CC7 /* GRTutorialContentViewController.h */,
+				336126131CED54E100E51CC7 /* GRTutorialContentViewController.m */,
+				336126151CED575000E51CC7 /* GRTutorialViewController.h */,
+				336126161CED575000E51CC7 /* GRTutorialViewController.m */,
+			);
+			name = Main;
+			path = ../Main;
+			sourceTree = "<group>";
+		};
+		33760C8D1CA4D63D009508D5 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A9744B591D0A7962001A9F08 /* Model */,
+				A9744B581D0A7931001A9F08 /* View */,
+				A9744B571D0A791D001A9F08 /* Category */,
+				A9744B561D0A7907001A9F08 /* App */,
+				33760C841CA4D63D009508D5 /* Main */,
+				33C266C81CA910B100735FAB /* GRViewController.h */,
+				33C266C91CA910B100735FAB /* GRViewController.m */,
+				33760C901CA4D63D009508D5 /* GRMainViewController.h */,
+				33760C911CA4D63D009508D5 /* GRMainViewController.m */,
+				33760C8E1CA4D63D009508D5 /* GRMainPageViewController.h */,
+				33760C8F1CA4D63D009508D5 /* GRMainPageViewController.m */,
+				33760C9E1CA4D63D009508D5 /* GRTabViewController.h */,
+				33760C9F1CA4D63D009508D5 /* GRTabViewController.m */,
+				33760C9C1CA4D63D009508D5 /* GRTabViewCell.h */,
+				33760C9D1CA4D63D009508D5 /* GRTabViewCell.m */,
+				33760C921CA4D63D009508D5 /* GROpenFileViewController.h */,
+				33760C931CA4D63D009508D5 /* GROpenFileViewController.m */,
+				33C266D71CA9287900735FAB /* GROpenFileCell.h */,
+				33C266D81CA9287900735FAB /* GROpenFileCell.m */,
+				33760C941CA4D63D009508D5 /* GRPlaylistViewController.h */,
+				33760C951CA4D63D009508D5 /* GRPlaylistViewController.m */,
+				33F8DE9D1CC4A62900D2A5F0 /* GRPlaylistCell.h */,
+				33F8DE9E1CC4A62900D2A5F0 /* GRPlaylistCell.m */,
+				33EC36D61CCDAACE008EFB4E /* GRAudioPlaylistCell.h */,
+				33EC36D71CCDAACE008EFB4E /* GRAudioPlaylistCell.m */,
+				3336DF861CBC91700087A56F /* GRBottomRemoteControlViewController.h */,
+				3336DF871CBC91700087A56F /* GRBottomRemoteControlViewController.m */,
+				33E874A11CD35AA300D4C5A2 /* GRSearchViewController.h */,
+				33E874A21CD35AA300D4C5A2 /* GRSearchViewController.m */,
+				33E331751D08FDB4002B44C1 /* GRSearchCell.h */,
+				33E331761D08FDB4002B44C1 /* GRSearchCell.m */,
+				33DCF54B1CDF0DAE00D56B87 /* GRDeleteCell.h */,
+				33DCF54C1CDF0DAE00D56B87 /* GRDeleteCell.m */,
+			);
+			name = UI;
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		33C266E01CA955BE00735FAB /* GomPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				33760C8B1CA4D63D009508D5 /* GRRemoteControlViewController.h */,
+				33760C8C1CA4D63D009508D5 /* GRRemoteControlViewController.m */,
+				33CE134A1CF3FABC00A231F4 /* GRRemoteControlViewCell.h */,
+				33CE134B1CF3FABC00A231F4 /* GRRemoteControlViewCell.m */,
+				33760C981CA4D63D009508D5 /* GRSnapshotViewController.h */,
+				33760C991CA4D63D009508D5 /* GRSnapshotViewController.m */,
+				3386529B1CDB3CBA00E73FE4 /* GRSnapshotDetailViewController.h */,
+				3386529C1CDB3CBA00E73FE4 /* GRSnapshotDetailViewController.m */,
+				33C35CFD1CABD56800A2AAEE /* GRSnapshotCell.h */,
+				33C35CFE1CABD56800A2AAEE /* GRSnapshotCell.m */,
+				3301B8EB1D005C24007C06B7 /* GRSnapshotDetailCell.h */,
+				3301B8EC1D005C24007C06B7 /* GRSnapshotDetailCell.m */,
+				33D3A54A1CCB524F005BD75C /* GRSubtitleSettingAlertViewController.h */,
+				33D3A54B1CCB524F005BD75C /* GRSubtitleSettingAlertViewController.m */,
+				33D3A54D1CCB5CD2005BD75C /* SubtitleSettingInfomation.h */,
+				33D3A54E1CCB5CD2005BD75C /* SubtitleSettingInfomation.m */,
+				33D3A5501CCB852F005BD75C /* GRPlayrateSettingViewController.h */,
+				33D3A5511CCB852F005BD75C /* GRPlayrateSettingViewController.m */,
+				33D3A5531CCB854A005BD75C /* PlayrateSettingInfomation.h */,
+				33D3A5541CCB854A005BD75C /* PlayrateSettingInfomation.m */,
+			);
+			name = GomPlayer;
+			sourceTree = "<group>";
+		};
+		33C266E11CA955CB00735FAB /* GomAudio */ = {
+			isa = PBXGroup;
+			children = (
+				33C266DA1CA951CE00735FAB /* GRLyricViewController.h */,
+				33C266DB1CA951CE00735FAB /* GRLyricViewController.m */,
+				33C266DD1CA9527600735FAB /* GRAudioRemoteControlViewController.h */,
+				33C266DE1CA9527600735FAB /* GRAudioRemoteControlViewController.m */,
+				33EC36E61CCDC37A008EFB4E /* GRAudioPlaylistPageViewController.h */,
+				33EC36E71CCDC37A008EFB4E /* GRAudioPlaylistPageViewController.m */,
+				33EC36E31CCDC359008EFB4E /* GRAudioPlaylistViewController.h */,
+				33EC36E41CCDC359008EFB4E /* GRAudioPlaylistViewController.m */,
+				33E7861A1CCCA43F00E9E60B /* GRAudioPlayrateSettingViewController.h */,
+				33E7861B1CCCA43F00E9E60B /* GRAudioPlayrateSettingViewController.m */,
+				333072601CD2215000906729 /* GRAddtoPlaylistViewController.h */,
+				333072611CD2215000906729 /* GRAddtoPlaylistViewController.m */,
+				33ED68AB1CEC638C006B4F49 /* GRAddtoPlaylistCell.h */,
+				33ED68AC1CEC638C006B4F49 /* GRAddtoPlaylistCell.m */,
+			);
+			name = GomAudio;
+			sourceTree = "<group>";
+		};
+		33E8112A1CD74A5800E908FC /* ActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				33E8112B1CD74A5800E908FC /* GUI2ActivityIndicatorView.h */,
+				33E8112C1CD74A5800E908FC /* GUI2ActivityIndicatorView.m */,
+				33E8112D1CD74A5800E908FC /* GUI2ActivityIndicatorView.xib */,
+				33E8112F1CD74A5800E908FC /* GUI2NetworkActivityIndicator.h */,
+				33E811301CD74A5800E908FC /* GUI2NetworkActivityIndicator.m */,
+			);
+			name = ActivityIndicator;
+			path = ../../Classes/ActivityIndicator;
+			sourceTree = "<group>";
+		};
+		75264B3611C238A7001D99C2 /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+				A9744B2A1D0A77F0001A9F08 /* NFKit */,
+				A9744B311D0A789D001A9F08 /* TouchXML */,
+				75264C3111C23B86001D99C2 /* MBProgressHUD */,
+				7533806111C5C69B003A1910 /* Reachability */,
+			);
+			name = Externals;
+			path = ../Externals;
+			sourceTree = "<group>";
+		};
+		75264C3111C23B86001D99C2 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				75264C4311C23B86001D99C2 /* MBProgressHUD.h */,
+				75264C4411C23B86001D99C2 /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
+			path = MBProgressHUD/MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		7533806111C5C69B003A1910 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				7533806211C5C69B003A1910 /* Reachability.h */,
+				7533806311C5C69B003A1910 /* Reachability.m */,
+			);
+			name = Reachability;
+			path = Reachability/Reachability;
+			sourceTree = "<group>";
+		};
+		A9744B2A1D0A77F0001A9F08 /* NFKit */ = {
+			isa = PBXGroup;
+			children = (
+				A9744B2B1D0A780B001A9F08 /* UIColor+NFAdditions.h */,
+				A9744B2C1D0A780B001A9F08 /* UIColor+NFAdditions.m */,
+				A9744B2E1D0A782A001A9F08 /* CGColor+NFAdditions.h */,
+				A9744B2F1D0A782A001A9F08 /* CGColor+NFAdditions.m */,
+			);
+			name = NFKit;
+			path = ../MobileGomRemote_iOS;
+			sourceTree = "<group>";
+		};
+		A9744B311D0A789D001A9F08 /* TouchXML */ = {
+			isa = PBXGroup;
+			children = (
+				A9744B4A1D0A78A7001A9F08 /* Source */,
+			);
+			name = TouchXML;
+			sourceTree = "<group>";
+		};
+		A9744B361D0A78A7001A9F08 /* Creation */ = {
+			isa = PBXGroup;
+			children = (
+				A9744B321D0A78A7001A9F08 /* CXMLDocument_CreationExtensions.h */,
+				A9744B331D0A78A7001A9F08 /* CXMLDocument_CreationExtensions.m */,
+				A9744B341D0A78A7001A9F08 /* CXMLNode_CreationExtensions.h */,
+				A9744B351D0A78A7001A9F08 /* CXMLNode_CreationExtensions.m */,
+			);
+			path = Creation;
+			sourceTree = "<group>";
+		};
+		A9744B4A1D0A78A7001A9F08 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A9744B361D0A78A7001A9F08 /* Creation */,
+				A9744B371D0A78A7001A9F08 /* CXMLDocument.h */,
+				A9744B381D0A78A7001A9F08 /* CXMLDocument.m */,
+				A9744B391D0A78A7001A9F08 /* CXMLDocument_PrivateExtensions.h */,
+				A9744B3A1D0A78A7001A9F08 /* CXMLDocument_PrivateExtensions.m */,
+				A9744B3B1D0A78A7001A9F08 /* CXMLElement.h */,
+				A9744B3C1D0A78A7001A9F08 /* CXMLElement.m */,
+				A9744B3D1D0A78A7001A9F08 /* CXMLElement_CreationExtensions.h */,
+				A9744B3E1D0A78A7001A9F08 /* CXMLElement_CreationExtensions.m */,
+				A9744B3F1D0A78A7001A9F08 /* CXMLElement_ElementTreeExtensions.h */,
+				A9744B401D0A78A7001A9F08 /* CXMLElement_ElementTreeExtensions.m */,
+				A9744B411D0A78A7001A9F08 /* CXMLNamespaceNode.h */,
+				A9744B421D0A78A7001A9F08 /* CXMLNamespaceNode.m */,
+				A9744B431D0A78A7001A9F08 /* CXMLNode.h */,
+				A9744B441D0A78A7001A9F08 /* CXMLNode.m */,
+				A9744B451D0A78A7001A9F08 /* CXMLNode_PrivateExtensions.h */,
+				A9744B461D0A78A7001A9F08 /* CXMLNode_PrivateExtensions.m */,
+				A9744B471D0A78A7001A9F08 /* CXMLNode_XPathExtensions.h */,
+				A9744B481D0A78A7001A9F08 /* CXMLNode_XPathExtensions.m */,
+				A9744B491D0A78A7001A9F08 /* TouchXML.h */,
+			);
+			name = Source;
+			path = TouchXML/TouchXML_iPhone/../TouchXML/Source;
+			sourceTree = "<group>";
+		};
+		A9744B561D0A7907001A9F08 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				33C266E01CA955BE00735FAB /* GomPlayer */,
+				33C266E11CA955CB00735FAB /* GomAudio */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		A9744B571D0A791D001A9F08 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				336713A71CBBBE1700F305E4 /* UILabel+AttributeString.h */,
+				336713A81CBBBE1700F305E4 /* UILabel+AttributeString.m */,
+				33F8DEB21CC4B80000D2A5F0 /* UIImage+SizeToFit.h */,
+				33F8DEB31CC4B80000D2A5F0 /* UIImage+SizeToFit.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		A9744B581D0A7931001A9F08 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				33E8112A1CD74A5800E908FC /* ActivityIndicator */,
+				33790CF41CAA2CB4007D9E99 /* TextInputAlertView.h */,
+				33790CF51CAA2CB4007D9E99 /* TextInputAlertView.m */,
+				33CE133D1CF3D95F00A231F4 /* GRLabel.h */,
+				33CE133E1CF3D95F00A231F4 /* GRLabel.m */,
+				33CE13951CF5978C00A231F4 /* GRButton.h */,
+				33CE13961CF5978C00A231F4 /* GRButton.m */,
+				33CE13981CF59AFD00A231F4 /* GRImage.h */,
+				33CE13991CF59AFD00A231F4 /* GRImage.m */,
+				33ED68961CEBF1FA006B4F49 /* ExtendedNavBarView.h */,
+				33ED68971CEBF1FA006B4F49 /* ExtendedNavBarView.m */,
+				337E57FA1CC086E800718EA6 /* CCARadialGradientLayer.h */,
+				337E57FB1CC086E800718EA6 /* CCARadialGradientLayer.m */,
+				337E57F71CC0850700718EA6 /* GRRadialGadientView.h */,
+				337E57F81CC0850700718EA6 /* GRRadialGadientView.m */,
+				334D4F611D0152300019873E /* GRNavigationController.h */,
+				334D4F621D0152300019873E /* GRNavigationController.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A9744B591D0A7962001A9F08 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				33760C801CA4D63D009508D5 /* GRBaseSectionData.h */,
+				33760C811CA4D63D009508D5 /* GRBaseSectionData.m */,
+				33760C821CA4D63D009508D5 /* GRDataSource.h */,
+				33760C831CA4D63D009508D5 /* GRDataSource.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A9744B5B1D0A7ACD001A9F08 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				A9744B631D0A7B93001A9F08 /* Swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		A9744B631D0A7B93001A9F08 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				A9744B761D0A7CA6001A9F08 /* GomRemote-Bridging-Header.h */,
+				A9744B651D0A7B93001A9F08 /* GCDAsyncSocket.h */,
+				A9744B661D0A7B93001A9F08 /* GCDAsyncSocket.m */,
+				A9744B641D0A7B93001A9F08 /* Debug.swift */,
+				A9744B681D0A7B93001A9F08 /* Remote.swift */,
+				A9744B691D0A7B93001A9F08 /* Servers.swift */,
+				A9744B6A1D0A7B93001A9F08 /* SwiftPlay.playground */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		FE5802F7156349BE00E6E028 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FE58031F156354C200E6E028 /* MagicPacket.m */,
+				FE58031E156354BD00E6E028 /* MagicPacket.h */,
+				FE58031B1563543700E6E028 /* RemoteServer.h */,
+				FE58031C1563543700E6E028 /* RemoteServer.m */,
+				FE5803141563539D00E6E028 /* NetServiceSearcher2.h */,
+				FE5803151563539D00E6E028 /* NetServiceSearcher2.m */,
+				FE5803161563539D00E6E028 /* NetServiceSearcherDelegate.h */,
+				FE5803171563539D00E6E028 /* NSStream+Host.h */,
+				FE5803181563539D00E6E028 /* NSStream+Host.m */,
+				FE5802F8156349BE00E6E028 /* NetworkUtility.h */,
+				FE5802F9156349BE00E6E028 /* NetworkUtility.m */,
+				FE5802FA156349BE00E6E028 /* SimplePing.h */,
+				FE5802FB156349BE00E6E028 /* SimplePing.m */,
+				FE5802FC156349BE00E6E028 /* TrayServerScanner.h */,
+				FE5802FD156349BE00E6E028 /* TrayServerScanner.m */,
+				38377F2011CCCE44002553F4 /* RemoteCommunicator.h */,
+				38377F2111CCCE44002553F4 /* RemoteCommunicator.m */,
+				FE863E4E1565E08E00DEEB48 /* PairingController.h */,
+				FE863E4F1565E08E00DEEB48 /* PairingController.m */,
+				38071B4211D335BE00C87F5B /* SyncLyricDownloader.h */,
+				38071B4311D335BE00C87F5B /* SyncLyricDownloader.m */,
+			);
+			name = Network;
+			path = ../../Classes/Network;
+			sourceTree = "<group>";
+		};
+		FE5803011563526D00E6E028 /* NetFinder */ = {
+			isa = PBXGroup;
+			children = (
+				333072531CD1F46300906729 /* GCDAsyncUdpSocket.h */,
+				333072541CD1F46300906729 /* GCDAsyncUdpSocket.m */,
+				FE8A6408156391F5002483C1 /* BetaSocket.h */,
+				FE8A6409156391F5002483C1 /* BetaSocket.m */,
+				FE8A640A156391F5002483C1 /* NetFinder.h */,
+				FE8A640B156391F5002483C1 /* NetFinder.m */,
+				FE8A640C156391F5002483C1 /* NetFinderDefs.h */,
+				FE8A640D156391F5002483C1 /* NetFinderDelegate.h */,
+			);
+			name = NetFinder;
+			path = ../../Classes/NetFinder;
+			sourceTree = "<group>";
+		};
+		FEAA050815328D8A001C8105 /* Utility Class */ = {
+			isa = PBXGroup;
+			children = (
+				38071B0411D3294F00C87F5B /* DebugTrace.h */,
+				38377E1511CB900B002553F4 /* ResourceInfo.h */,
+				38377E1211CB8FC7002553F4 /* ResourceLoader.h */,
+				38377E1311CB8FC7002553F4 /* ResourceLoader.m */,
+				BD8EF5AC150EE04C002EF0D7 /* SoundEffectPlayer.h */,
+				BD8EF5AD150EE04C002EF0D7 /* SoundEffectPlayer.m */,
+				30D23A45166F456000C7B8E8 /* StatisticLogger.h */,
+				30D23A46166F456000C7B8E8 /* StatisticLogger.m */,
+				33CE139E1CF5A4AC00A231F4 /* GRUpdateTask.h */,
+				33CE139F1CF5A4AC00A231F4 /* GRUpdateTask.m */,
+			);
+			name = "Utility Class";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* GomRemote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "GomRemote" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+				A9744B751D0A7C03001A9F08 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GomRemote;
+			productName = iGomRemote;
+			productReference = 1D6058910D05DD3D006BFB54 /* GomRemote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = 9Y68NLX6DA;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iGomRemote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				Base,
+				en,
+				ja,
+				ko,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* GomRemote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				384B55FC123E35F200B03F1F /* Entitlements.plist in Resources */,
+				33E331741D0844D3002B44C1 /* GRSectionCell.xib in Resources */,
+				33AC54A81CF709FF008824B8 /* ImageAsset.xcassets in Resources */,
+				33E811321CD74A5800E908FC /* GUI2ActivityIndicatorView.xib in Resources */,
+				33E0FF0B1CF318650020422D /* Localizable.strings in Resources */,
+				A9BB958A1D016DCC00BFE794 /* GRHeaderCell.xib in Resources */,
+				331ED14A1CF70958006697C8 /* Brand.xcassets in Resources */,
+				337E4C421CC07E9000718EA6 /* Main.storyboard in Resources */,
+				33760CA01CA4D63D009508D5 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9744B6C1D0A7B93001A9F08 /* GCDAsyncSocket.m in Sources */,
+				3887BF4B11ABA6CA0080B516 /* RemoteCommand.m in Sources */,
+				336126171CED575000E51CC7 /* GRTutorialViewController.m in Sources */,
+				33F8DE9F1CC4A62900D2A5F0 /* GRPlaylistCell.m in Sources */,
+				3887BF9711ABB9CF0080B516 /* RemoteSettings.m in Sources */,
+				33790CF61CAA2CB4007D9E99 /* TextInputAlertView.m in Sources */,
+				33E811341CD74A5800E908FC /* GUI2NetworkActivityIndicator.m in Sources */,
+				75264C4E11C23B87001D99C2 /* MBProgressHUD.m in Sources */,
+				33E331771D08FDB4002B44C1 /* GRSearchCell.m in Sources */,
+				33760CA81CA4D63D009508D5 /* GRMainPageViewController.m in Sources */,
+				337E57F91CC0850700718EA6 /* GRRadialGadientView.m in Sources */,
+				7533806411C5C69B003A1910 /* Reachability.m in Sources */,
+				33C266CA1CA910B100735FAB /* GRViewController.m in Sources */,
+				33760CA51CA4D63D009508D5 /* GRConnectionViewController.m in Sources */,
+				38377E1411CB8FC7002553F4 /* ResourceLoader.m in Sources */,
+				33ED68AD1CEC638C006B4F49 /* GRAddtoPlaylistCell.m in Sources */,
+				33760CAB1CA4D63D009508D5 /* GRPlaylistViewController.m in Sources */,
+				33760CAF1CA4D63D009508D5 /* GRTabViewCell.m in Sources */,
+				A9744B511D0A78A7001A9F08 /* CXMLElement_ElementTreeExtensions.m in Sources */,
+				33C266D91CA9287900735FAB /* GROpenFileCell.m in Sources */,
+				33760CA41CA4D63D009508D5 /* AppDelegate.m in Sources */,
+				33CE134C1CF3FABC00A231F4 /* GRRemoteControlViewCell.m in Sources */,
+				33760CA91CA4D63D009508D5 /* GRMainViewController.m in Sources */,
+				A9744B6D1D0A7B93001A9F08 /* Remote.swift in Sources */,
+				A9744B2D1D0A780B001A9F08 /* UIColor+NFAdditions.m in Sources */,
+				33790CEB1CAA2680007D9E99 /* RemoteFileEntry.m in Sources */,
+				33760CAC1CA4D63D009508D5 /* GRSettingViewController.m in Sources */,
+				38377F2B11CCCE44002553F4 /* RemoteCommunicator.m in Sources */,
+				33CE13A01CF5A4AC00A231F4 /* GRUpdateTask.m in Sources */,
+				A9744B4D1D0A78A7001A9F08 /* CXMLDocument.m in Sources */,
+				A9744B6E1D0A7B93001A9F08 /* Servers.swift in Sources */,
+				33D3A5521CCB852F005BD75C /* GRPlayrateSettingViewController.m in Sources */,
+				38377F4211CCD08B002553F4 /* main.m in Sources */,
+				38377F4511CCD0EA002553F4 /* ImageLoadingOperation.m in Sources */,
+				38071B4411D335BE00C87F5B /* SyncLyricDownloader.m in Sources */,
+				336126141CED54E100E51CC7 /* GRTutorialContentViewController.m in Sources */,
+				33DCF54D1CDF0DAE00D56B87 /* GRDeleteCell.m in Sources */,
+				33760CA31CA4D63D009508D5 /* GRDataSource.m in Sources */,
+				A9744B531D0A78A7001A9F08 /* CXMLNode.m in Sources */,
+				33F8DEB41CC4B80000D2A5F0 /* UIImage+SizeToFit.m in Sources */,
+				33C35CFF1CABD56800A2AAEE /* GRSnapshotCell.m in Sources */,
+				33ED68981CEBF1FA006B4F49 /* ExtendedNavBarView.m in Sources */,
+				334D4F631D0152300019873E /* GRNavigationController.m in Sources */,
+				33E874A31CD35AA300D4C5A2 /* GRSearchViewController.m in Sources */,
+				33760CA61CA4D63D009508D5 /* GRInputPinViewController.m in Sources */,
+				336713A91CBBBE1700F305E4 /* UILabel+AttributeString.m in Sources */,
+				33760CA71CA4D63D009508D5 /* GRRemoteControlViewController.m in Sources */,
+				38859E36127FEF9300BE5EEC /* GomRemoteGlobalState.m in Sources */,
+				33760CA21CA4D63D009508D5 /* GRBaseSectionData.m in Sources */,
+				A9744B6B1D0A7B93001A9F08 /* Debug.swift in Sources */,
+				33E331731D0844D3002B44C1 /* GRSectionCell.m in Sources */,
+				A9744B4C1D0A78A7001A9F08 /* CXMLNode_CreationExtensions.m in Sources */,
+				A9744B4F1D0A78A7001A9F08 /* CXMLElement.m in Sources */,
+				3336DF881CBC91700087A56F /* GRBottomRemoteControlViewController.m in Sources */,
+				33EC36E51CCDC359008EFB4E /* GRAudioPlaylistViewController.m in Sources */,
+				BD8EF5AE150EE04C002EF0D7 /* SoundEffectPlayer.m in Sources */,
+				33760CAA1CA4D63D009508D5 /* GROpenFileViewController.m in Sources */,
+				33760CAD1CA4D63D009508D5 /* GRSnapshotViewController.m in Sources */,
+				A9744B541D0A78A7001A9F08 /* CXMLNode_PrivateExtensions.m in Sources */,
+				A9744B4B1D0A78A7001A9F08 /* CXMLDocument_CreationExtensions.m in Sources */,
+				33D3A5551CCB854A005BD75C /* PlayrateSettingInfomation.m in Sources */,
+				3386528A1CDB2E4400E73FE4 /* GRConnectionCell.m in Sources */,
+				FE5802FE156349BE00E6E028 /* NetworkUtility.m in Sources */,
+				33C266DF1CA9527600735FAB /* GRAudioRemoteControlViewController.m in Sources */,
+				333072551CD1F46300906729 /* GCDAsyncUdpSocket.m in Sources */,
+				33CE139A1CF59AFD00A231F4 /* GRImage.m in Sources */,
+				FE5802FF156349BE00E6E028 /* SimplePing.m in Sources */,
+				FE580300156349BE00E6E028 /* TrayServerScanner.m in Sources */,
+				33E811311CD74A5800E908FC /* GUI2ActivityIndicatorView.m in Sources */,
+				3301B8ED1D005C24007C06B7 /* GRSnapshotDetailCell.m in Sources */,
+				FE5803191563539D00E6E028 /* NetServiceSearcher2.m in Sources */,
+				33D3A54C1CCB524F005BD75C /* GRSubtitleSettingAlertViewController.m in Sources */,
+				FE58031A1563539D00E6E028 /* NSStream+Host.m in Sources */,
+				33C5A0711CCF8C760050E867 /* GRRelayDataTaskController.m in Sources */,
+				337E57FC1CC086E800718EA6 /* CCARadialGradientLayer.m in Sources */,
+				33EC36D81CCDAACE008EFB4E /* GRAudioPlaylistCell.m in Sources */,
+				A9744B301D0A782A001A9F08 /* CGColor+NFAdditions.m in Sources */,
+				3386529D1CDB3CBA00E73FE4 /* GRSnapshotDetailViewController.m in Sources */,
+				FE58031D1563543700E6E028 /* RemoteServer.m in Sources */,
+				A9744B501D0A78A7001A9F08 /* CXMLElement_CreationExtensions.m in Sources */,
+				FE580320156354C200E6E028 /* MagicPacket.m in Sources */,
+				A9744B551D0A78A7001A9F08 /* CXMLNode_XPathExtensions.m in Sources */,
+				33D3A54F1CCB5CD2005BD75C /* SubtitleSettingInfomation.m in Sources */,
+				A9744B4E1D0A78A7001A9F08 /* CXMLDocument_PrivateExtensions.m in Sources */,
+				FE8A6410156391F5002483C1 /* BetaSocket.m in Sources */,
+				A9C0A5E91CFF0E1D00EEF100 /* GRHeaderCell.m in Sources */,
+				FE8A6411156391F5002483C1 /* NetFinder.m in Sources */,
+				33CE133F1CF3D95F00A231F4 /* GRLabel.m in Sources */,
+				33EC36E81CCDC37A008EFB4E /* GRAudioPlaylistPageViewController.m in Sources */,
+				333072621CD2215000906729 /* GRAddtoPlaylistViewController.m in Sources */,
+				FE863E501565E08E00DEEB48 /* PairingController.m in Sources */,
+				33790CF31CAA2C34007D9E99 /* SyncEntry.m in Sources */,
+				33CE13971CF5978C00A231F4 /* GRButton.m in Sources */,
+				30D23A47166F456000C7B8E8 /* StatisticLogger.m in Sources */,
+				A9744B521D0A78A7001A9F08 /* CXMLNamespaceNode.m in Sources */,
+				33760CB01CA4D63D009508D5 /* GRTabViewController.m in Sources */,
+				33E7861C1CCCA43F00E9E60B /* GRAudioPlayrateSettingViewController.m in Sources */,
+				33C266DC1CA951CE00735FAB /* GRLyricViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		33760C7A1CA4D63D009508D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33760C7B1CA4D63D009508D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = MobileGomRemote_iOS/Base.lproj;
+			sourceTree = "<group>";
+		};
+		337E4C401CC07E9000718EA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				337E4C411CC07E9000718EA6 /* Base */,
+			);
+			name = Main.storyboard;
+			path = MobileGomRemote_iOS;
+			sourceTree = "<group>";
+		};
+		33E0FF0D1CF318650020422D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33E0FF0C1CF318650020422D /* Base */,
+				33E0FF0E1CF3186F0020422D /* en */,
+				33E0FF0F1CF318790020422D /* ja */,
+				33E0FF101CF318800020422D /* ko */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 진영 강 (2J2872UHRV)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MobileGomRemote_iOS/News",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iGomRemote_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(TARGET_BUILD_DIR)/../../usr/local/include/**",
+					$SDKROOT/usr/include/libxml2,
+				);
+				INFOPLIST_FILE = "iGomRemote-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LIBTOOLFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gretech.gomremote;
+				PRODUCT_NAME = GomRemote;
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "GomRemote-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}/Externals/ASIHTTPRequest/ASIHTTPRequest_iPhone/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include ${PROJECT_DIR}/Externals/MGTwitterEngine/MGTwitterEngine_iPhone/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include ${PROJECT_DIR}/Externals/OAuthConsumer/OAuthConsumer_iPhone/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include/** ${PROJECT_DIR}/Externals/SBJSON/SBJSON_iPhone/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include ${PROJECT_DIR}/Externals/TouchXML/TouchXML_iPhone/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include $SDKROOT/usr/include/libxml2 ${PROJECT_DIR}/Externals/NFKit/NFKit ${PROJECT_DIR}/Externals/NFKit/NFKit/iOS ${TARGET_BUILD_DIR}/../../usr/local/include/**";
+			};
+			name = Debug;
+		};
+		30825F4C166D932B008AC959 /* Archive */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"${PROJECT_DIR}/Externals/ASIHTTPRequest/ASIHTTPRequest_iPhone/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include",
+					"${PROJECT_DIR}/Externals/MGTwitterEngine/MGTwitterEngine_iPhone/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include",
+					"${PROJECT_DIR}/Externals/OAuthConsumer/OAuthConsumer_iPhone/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include/**",
+					"${PROJECT_DIR}/Externals/SBJSON/SBJSON_iPhone/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include",
+					"${PROJECT_DIR}/Externals/TouchXML/TouchXML_iPhone/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include",
+					$SDKROOT/usr/include/libxml2,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}/Externals/ASIHTTPRequest/ASIHTTPRequest_iPhone/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include ${PROJECT_DIR}/Externals/MGTwitterEngine/MGTwitterEngine_iPhone/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include ${PROJECT_DIR}/Externals/OAuthConsumer/OAuthConsumer_iPhone/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include/** ${PROJECT_DIR}/Externals/SBJSON/SBJSON_iPhone/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include ${PROJECT_DIR}/Externals/TouchXML/TouchXML_iPhone/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include $SDKROOT/usr/include/libxml2 ${PROJECT_DIR}/Externals/NFKit/Commons";
+			};
+			name = Archive;
+		};
+		30825F4D166D932B008AC959 /* Archive */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Gretech (9Y68NLX6DA)";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MobileGomRemote_iOS/News",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iGomRemote_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(TARGET_BUILD_DIR)/../../usr/local/include/",
+					$SDKROOT/usr/include/libxml2,
+				);
+				INFOPLIST_FILE = "iGomRemote-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LIBTOOLFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gretech.gomremote;
+				PRODUCT_NAME = GomRemote;
+				PROVISIONING_PROFILE = "706d77d8-ad84-46eb-95ef-9b0c4ffeda67";
+				SKIP_INSTALL = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "GomRemote-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}/Externals/ASIHTTPRequest/ASIHTTPRequest_iPhone/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include ${PROJECT_DIR}/Externals/MGTwitterEngine/MGTwitterEngine_iPhone/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include ${PROJECT_DIR}/Externals/OAuthConsumer/OAuthConsumer_iPhone/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include/** ${PROJECT_DIR}/Externals/SBJSON/SBJSON_iPhone/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include ${PROJECT_DIR}/Externals/TouchXML/TouchXML_iPhone/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include $SDKROOT/usr/include/libxml2 ${PROJECT_DIR}/Externals/NFKit/Commons ${PROJECT_DIR}/Externals/NFKit/NFKit ${PROJECT_DIR}/Externals/NFKit/NFKit/iOS";
+			};
+			name = Archive;
+		};
+		387AC93F123E079C0072203F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"${PROJECT_DIR}/Externals/ASIHTTPRequest/ASIHTTPRequest_iPhone/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include",
+					"${PROJECT_DIR}/Externals/MGTwitterEngine/MGTwitterEngine_iPhone/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include",
+					"${PROJECT_DIR}/Externals/OAuthConsumer/OAuthConsumer_iPhone/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include/**",
+					"${PROJECT_DIR}/Externals/SBJSON/SBJSON_iPhone/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include",
+					"${PROJECT_DIR}/Externals/TouchXML/TouchXML_iPhone/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include",
+					$SDKROOT/usr/include/libxml2,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}/Externals/ASIHTTPRequest/ASIHTTPRequest_iPhone/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include ${PROJECT_DIR}/Externals/MGTwitterEngine/MGTwitterEngine_iPhone/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include ${PROJECT_DIR}/Externals/OAuthConsumer/OAuthConsumer_iPhone/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include/** ${PROJECT_DIR}/Externals/SBJSON/SBJSON_iPhone/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include ${PROJECT_DIR}/Externals/TouchXML/TouchXML_iPhone/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include $SDKROOT/usr/include/libxml2 ${PROJECT_DIR}/Externals/NFKit/Commons";
+			};
+			name = Release;
+		};
+		387AC940123E079C0072203F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Gretech (9Y68NLX6DA)";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MobileGomRemote_iOS/News",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iGomRemote_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(TARGET_BUILD_DIR)/../../usr/local/include/",
+					$SDKROOT/usr/include/libxml2,
+				);
+				INFOPLIST_FILE = "iGomRemote-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LIBTOOLFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gretech.gomremote;
+				PRODUCT_NAME = GomRemote;
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "GomRemote-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}/Externals/ASIHTTPRequest/ASIHTTPRequest_iPhone/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include ${PROJECT_DIR}/Externals/MGTwitterEngine/MGTwitterEngine_iPhone/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include ${PROJECT_DIR}/Externals/OAuthConsumer/OAuthConsumer_iPhone/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include/** ${PROJECT_DIR}/Externals/SBJSON/SBJSON_iPhone/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include ${PROJECT_DIR}/Externals/TouchXML/TouchXML_iPhone/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include $SDKROOT/usr/include/libxml2 ${PROJECT_DIR}/Externals/NFKit/Commons ${PROJECT_DIR}/Externals/NFKit/NFKit ${PROJECT_DIR}/Externals/NFKit/NFKit/iOS";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "";
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"${PROJECT_DIR}/Externals/ASIHTTPRequest/ASIHTTPRequest_iPhone/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include",
+					"${PROJECT_DIR}/Externals/MGTwitterEngine/MGTwitterEngine_iPhone/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include",
+					"${PROJECT_DIR}/Externals/OAuthConsumer/OAuthConsumer_iPhone/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include/**",
+					"${PROJECT_DIR}/Externals/SBJSON/SBJSON_iPhone/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include",
+					"${PROJECT_DIR}/Externals/TouchXML/TouchXML_iPhone/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include",
+					$SDKROOT/usr/include/libxml2,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DDEBUG=1";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				USER_HEADER_SEARCH_PATHS = "${PROJECT_DIR}/Externals/ASIHTTPRequest/ASIHTTPRequest_iPhone/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include ${PROJECT_DIR}/Externals/MGTwitterEngine/MGTwitterEngine_iPhone/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include ${PROJECT_DIR}/Externals/OAuthConsumer/OAuthConsumer_iPhone/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include/** ${PROJECT_DIR}/Externals/SBJSON/SBJSON_iPhone/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include ${PROJECT_DIR}/Externals/TouchXML/TouchXML_iPhone/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include $SDKROOT/usr/include/libxml2 ${PROJECT_DIR}/Externals/NFKit/Commons";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "GomRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				387AC940123E079C0072203F /* Release */,
+				30825F4D166D932B008AC959 /* Archive */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iGomRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				387AC93F123E079C0072203F /* Release */,
+				30825F4C166D932B008AC959 /* Archive */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
