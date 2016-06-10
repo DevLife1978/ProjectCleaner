@@ -1,5 +1,5 @@
 # ProjectCleaner
-remove unused source files in project
+remove unused source files in xcode objective c project
 
 seeing unused source files
 
